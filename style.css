@@ -1,5 +1,15 @@
 html {font-family: helvetica;}
 
+nav, main { widtch: 100%;
+}
+
+@media screen and (min-width: 768px)
+{
+  nav, main{
+    width: 33.3333333;
+  }
+}
+
 ul.navigacija {list-style-type: none;}
 li.navi {
     display: inline;
@@ -35,6 +45,11 @@ li.navi {
   h1 {text-align: center;
     color: teal;
     font-size: 80px;}
+
+    p{ background-color: teal;
+      color: peachpuff;
+    }
+ 
     
     
     #profilna { display: inline-block; 
@@ -108,6 +123,7 @@ width: 100%;
 padding: 15px;}
 
 h4 {color: teal;}
+h5 { font-size: 15px;}
 
 .social-icon{
     width: 24px;
