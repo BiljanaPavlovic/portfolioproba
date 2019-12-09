@@ -1,4 +1,4 @@
-html {font-family: helvetica;}
+html {font-family:  'Carter One', cursive;};
 
 nav, main { widtch: 100%;
 }
@@ -39,15 +39,15 @@ li.navi {
   }
   
   li.navi a:hover {
-    background-color:paleturquoise;
+    background-color: paleturquoise;
   }
   
   h1 {text-align: center;
     color: teal;
     font-size: 80px;}
 
-    p{ background-color: teal;
-      color: peachpuff;
+    p{ background-color: whitesmoke;
+      color: black;
     }
  
     
@@ -79,7 +79,7 @@ left:40%;
 text-align: center;}
 
 p { font-size: 20px;}
-p a {color:paleturquoise;}
+p a {color: teal;}
 
 #projekti { background-image: url(https://i.pinimg.com/originals/f2/50/62/f25062b96c7c06f256ad232a84916550.jpg);
 background-size: 100%;
