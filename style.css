@@ -30,10 +30,13 @@ li.navi {
   position: fixed;
   background-color: peachpuff;
   width: 100%;
+  align-content: center;
 }
 
 li.navi {
   float: left;
+  text-align: justify;
+  margin-left: 5%;
 }
 
 li.navi a {
@@ -91,9 +94,11 @@ button {
 
 h3 {
   color: teal;
-  background-color: peachpuff;
   font-size: 50px;
   text-align: center;
+}
+.breskvaNaslov{
+  color: peachpuff;
 }
 
 p {
@@ -109,6 +114,13 @@ p a {
   background-size: 100%;
   margin: 20px;
   padding: 15px;
+}
+.projectImg{
+  widows: 200px;
+  height: 200px;
+  border: solid 10px teal;
+  float: left;
+  margin-left: 10%;
 }
 
 #obrazovanje {
