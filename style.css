@@ -31,12 +31,14 @@ li.navi {
   background-color: peachpuff;
   width: 100%;
   align-content: center;
+  border: solid teal 4px;
 }
 
 li.navi {
   float: left;
   text-align: justify;
   margin-left: 5%;
+  
 }
 
 li.navi a {
@@ -97,7 +99,7 @@ h3 {
   font-size: 50px;
   text-align: center;
 }
-.breskvaNaslov{
+.breskvaNaslov {
   color: peachpuff;
 }
 
@@ -115,7 +117,7 @@ p a {
   margin: 20px;
   padding: 15px;
 }
-.projectImg{
+.projectImg {
   widows: 200px;
   height: 200px;
   border: solid 10px teal;
@@ -171,4 +173,6 @@ h5 {
 
 ol {
   list-style-type: none;
+  
+ 
 }
