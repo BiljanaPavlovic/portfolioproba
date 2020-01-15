@@ -1,139 +1,162 @@
-html {font-family:  'Carter One', cursive;};
-
-nav, main { widtch: 100%;
+html {
+  font-family: "Carter One", cursive;
 }
 
-@media screen and (min-width: 768px)
-{
-  nav, main{
+nav,
+main {
+  widtch: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav,
+  main {
     width: 33.3333333;
   }
 }
 
-ul.navigacija {list-style-type: none;}
-li.navi {
-    display: inline;
-   font-size: 20px;
-   }
-   
- #nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    background-color: peachpuff;
-    width: 100%;
-  }
-  
-  li.navi {
-    float: left;
-  }
-  
-  li.navi a {
-    display: block;
-    color: teal;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li.navi a:hover {
-    background-color: paleturquoise;
-  }
-  
-  h1 {text-align: center;
-    color: peachpuff;
-    font-size: 80px;}
-
-   
- 
-    
-    
-    #profilna { display: inline-block; 
-    float: right;
-  border: solid 10px peachpuff;
-border-radius: 50%;}
-    
-    #omeni {
-        background-color: teal;
-  background-size: 100%;
-margin: 20px;
-padding: 15px;} 
-
-#dugme { display: inline-block; }
-
-button {border-radius: 30%;
-    padding: 15px 15px;
-font-size: 15px;
-background-color: peachpuff;
-color:teal;
-border: solid;
-position:relative;
-top:50%; 
-left:40%;
+ul.navigacija {
+  list-style-type: none;
 }
-.sliciceNaDugme{
+li.navi {
+  display: inline;
+  font-size: 20px;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: peachpuff;
+  width: 100%;
+}
+
+li.navi {
+  float: left;
+}
+
+li.navi a {
+  display: block;
+  color: teal;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navi a:hover {
+  background-color: paleturquoise;
+}
+
+h1 {
+  text-align: center;
+  color: peachpuff;
+  font-size: 80px;
+}
+
+#profilna {
+  display: inline-block;
+  float: right;
+  border: solid 10px peachpuff;
+  border-radius: 50%;
+}
+
+#omeni {
+  background-color: teal;
+
+  margin: 20px;
+  padding: 15px;
+}
+
+#dugme {
+  display: inline-block;
+}
+
+button {
+  border-radius: 30%;
+  padding: 15px 15px;
+  font-size: 15px;
+  background-color: peachpuff;
+  color: teal;
+  border: solid;
+  position: relative;
+  top: 50%;
+  left: 40%;
+}
+.sliciceNaDugme {
   width: 500px;
   height: 300px;
   border: solid 10px peachpuff;
 }
-    
-    h3 {color: teal;
-      background-color: peachpuff;
-    font-size: 50px;
-text-align: center;}
 
-p { font-size: 20px;}
-p a {color: paleturquoise;
-background-color: teal;}
+h3 {
+  color: teal;
+  background-color: peachpuff;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+p a {
+  color: paleturquoise;
+  background-color: teal;
+}
 
 #projekti {
   background-color: peachpuff;
-background-size: 100%;
-margin: 20px;
-padding: 15px;
+  background-size: 100%;
+  margin: 20px;
+  padding: 15px;
 }
 
-
-#obrazovanje { 
+#obrazovanje {
   background-color: teal;
-    
-background-size: 100%;
-margin: 20px;
-padding: 15px;}
 
+  background-size: 100%;
+  margin: 20px;
+  padding: 15px;
+}
 
-#iskustvo { 
+#iskustvo {
   background-color: peachpuff;
-background-position: center;
-    background-size: 100%;
-    margin: 20px;
-    padding: 15px;}
+  background-position: center;
+  background-size: 100%;
+  margin: 20px;
+  padding: 15px;
+}
 
-#volontiranje { 
+#volontiranje {
   background-color: teal;
-   
-    background-position: center;
-        background-size: 100%;
-        margin: 20px;
-        padding: 15px;}
 
+  background-position: center;
+  background-size: 100%;
+  margin: 20px;
+  padding: 15px;
+}
 
+footer {
+  display: inline-block;
+  margin-left: 30px;
+  border-block: solid;
+  background-color: peachpuff;
+  width: 100%;
+  padding: 15px;
+}
 
-footer{
-    display:inline-block;
-    margin-left:30px;
-border-block: solid;
-background-color: peachpuff;
-width: 100%;
-padding: 15px;}
+h4 {
+  color: teal;
+}
+h5 {
+  font-size: 15px;
+}
 
-h4 {color: teal;}
-h5 { font-size: 15px;}
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
 
-.social-icon{
-    width: 24px;
-    height: 24px;}
-
-    ol {list-style-type: none;}
+ol {
+  list-style-type: none;
+}
