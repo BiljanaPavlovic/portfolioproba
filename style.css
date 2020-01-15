@@ -73,8 +73,13 @@ position:relative;
 top:50%; 
 left:40%;
 }
+.sliciceNaDugme{
+  width: 500px;
+  height: 300px;
+}
     
     h3 {color: teal;
+      background-color: peachpuff;
     font-size: 50px;
 text-align: center;}
 
