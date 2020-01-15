@@ -43,20 +43,20 @@ li.navi {
   }
   
   h1 {text-align: center;
-    color: teal;
+    color: peachpuff;
     font-size: 80px;}
 
-    p{ background-color: whitesmoke;
-      color: black;
-    }
+   
  
     
     
     #profilna { display: inline-block; 
-    float: right;}
+    float: right;
+  border: solid 10px peachpuff;
+border-radius: 50%;}
     
     #omeni {
-        background-image: url("https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+        background-color: teal;
   background-size: 100%;
 margin: 20px;
 padding: 15px;} 
@@ -79,40 +79,41 @@ left:40%;
 text-align: center;}
 
 p { font-size: 20px;}
-p a {color: teal;}
+p a {color: paleturquoise;
+background-color: teal;}
 
-#projekti { background-image: url(https://i.pinimg.com/originals/f2/50/62/f25062b96c7c06f256ad232a84916550.jpg);
+#projekti {
+  background-color: peachpuff;
 background-size: 100%;
 margin: 20px;
 padding: 15px;
-color: peachpuff;}
-object {background-color:peachpuff;}
+}
 
-#obrazovanje { background-image: url("https://ak7.picdn.net/shutterstock/videos/1022736847/thumb/12.jpg");
-    color:peachpuff;
+
+#obrazovanje { 
+  background-color: teal;
+    
 background-size: 100%;
 margin: 20px;
 padding: 15px;}
 
 
-#iskustvo { background-image: url("https://image.freepik.com/free-photo/creative-flat-lay-photo-modern-workplace-with-laptop-top-view-laptop-background-copy-space-white-background_11358-1313.jpg");
+#iskustvo { 
+  background-color: peachpuff;
 background-position: center;
     background-size: 100%;
     margin: 20px;
     padding: 15px;}
 
-#volontiranje { background-image: url("https://live.staticflickr.com/875/39496316340_66986bb280_b.jpg");
-    color:peachpuff;
+#volontiranje { 
+  background-color: teal;
+   
     background-position: center;
         background-size: 100%;
         margin: 20px;
         padding: 15px;}
 
-#hobi { background-image: url("https://image.freepik.com/free-photo/sewing-accessories-spools-thread-with-scissors-wood-background-top-view_33882-370.jpg");
-    background-position: center;
-        background-size: 100%;
-        margin: 20px;
-        padding: 15px;}
+
 
 footer{
     display:inline-block;
